@@ -1,0 +1,22 @@
+//
+//  main.swift
+//  BINGO
+//
+//  Created by 이지연 on 2022/08/23.
+//
+
+import Foundation
+
+
+var randomNumber = Int.random(in: 1...10)
+var myNumber = 4
+
+if randomNumber == myNumber {
+    print("BINGO")
+} else if randomNumber > myNumber {
+    print("Up")
+} else {
+    print("Down")
+}
+
+
